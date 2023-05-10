@@ -1,4 +1,11 @@
 package com.woniuxy.mall.service.impl;
 
-public class CategoryServiceImpl {
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.woniuxy.mall.entity.Category;
+import com.woniuxy.mall.mapper.CategoryMapper;
+import com.woniuxy.mall.service.CategoryService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> implements CategoryService {
 }

@@ -1,4 +1,7 @@
 package com.woniuxy.mall.service;
 
-public interface CategoryService {
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.woniuxy.mall.entity.Category;
+
+public interface CategoryService extends IService<Category> {
 }
